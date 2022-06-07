@@ -12,7 +12,8 @@
 		}
 		hidePreloader();
         
-            
+        "use strict"
+        
         function countDown() {
 
         // Set the date we're counting down to
@@ -85,7 +86,9 @@
       }
     })
         
-    animateValue(document.getElementById('c'), 0, 36);
+    animateValue(document.getElementById('c'), 0, 3590);
+    animateValue(document.getElementById('d'), 0, 903);
+    animateValue(document.getElementById('e'), 0, 1941);
     
     
     })
